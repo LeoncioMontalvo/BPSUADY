@@ -1,0 +1,38 @@
+
+body{
+    background-color: black;
+    
+}
+
+
+.Contenido{
+    background-color: white;
+    color: black;
+    height: 75%;
+    position: relative;
+    top: 15%;
+    display: block;
+    
+    
+}
+.estudiantes{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    height: 50%;
+    text-align: center;
+}
+
+.empresas{
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+
+
