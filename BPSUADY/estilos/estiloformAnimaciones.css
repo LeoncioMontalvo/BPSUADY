@@ -250,7 +250,7 @@ fieldset{
 #alert-container {
   z-index: 1;
   
-  .alert-msg {
+  /* .alert-msg {
      background: #fff;
      border: 1px solid #ddd;
      bottom: 25px;
@@ -269,7 +269,7 @@ fieldset{
         margin-right: 10px;
         vertical-align: sub;
      }
-  }
+  } */
 }
 
 .slide-in {
