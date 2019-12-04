@@ -45,7 +45,7 @@
     transform:translate(-50%,-50%);
 }
 
-#icono{
+.icono{
     color:#fff;
   background: #5A6263;
   border-radius:4px;
@@ -65,13 +65,12 @@
    -webkit-font-smoothing: antialiased;
 
 }
-
-#icono:hover{
+.icono:hover{
     background: #5A6263;
 
 }
 
-#icono span{
+.icono span{
     
         color:#666;
         position:absolute;
@@ -93,7 +92,7 @@
     
 }
 
-#icono span:before {
+.icono span:before {
     content:'';
     width: 0; 
     height: 0; 
@@ -105,23 +104,24 @@
     left:40px;
 }
 
-#icono:hover span {
+.icono:hover span {
     bottom:50px;
     visibility:visible;
     opacity:1;
 }
 
-#icono:nth-of-type(1):before {
-    content:'../imagenes/pagina/facebook.png'
+.icono:nth-of-type(1):before {
+    content: url('../imagenes/pagina/facebook.png');
 }
-#icono:nth-of-type(2):before {
-    content:'../imagenes/pagina/facebook.png';
+.icono:nth-of-type(2):before {
+    content: url('../imagenes/pagina/facebook.png');
 }
-#icono:nth-of-type(3):before {
-    content: '../imagenes/pagina/github.png';
+.icono:nth-of-type(3):before {
+    content: url('../imagenes/pagina/github.png');
 }
 
-#lista{
+
+.lista{
     list-style: none;
 }
 
