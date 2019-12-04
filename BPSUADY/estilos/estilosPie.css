@@ -65,10 +65,8 @@
    -webkit-font-smoothing: antialiased;
 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 10de2378d85dd2c1f838a2296eff53fbc27ac148
+
 .icono:hover{
     background: #5A6263;
 
@@ -118,11 +116,10 @@
     content: url('../imagenes/pagina/facebook.png');
 }
 .icono:nth-of-type(2):before {
-<<<<<<< HEAD
+
     content: url('../imagenes/pagina/gorjeo.png');
-=======
-    content: url('../imagenes/pagina/facebook.png');
->>>>>>> 10de2378d85dd2c1f838a2296eff53fbc27ac148
+
+
 }
 .icono:nth-of-type(3):before {
     content: url('../imagenes/pagina/github.png');
