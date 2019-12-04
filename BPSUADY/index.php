@@ -36,4 +36,6 @@
     } else {
 	    echo 'Controlador' . $controlador . '.' .  $accion . ' no existe.';
     }
+
+    
 ?>
