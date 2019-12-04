@@ -4,10 +4,10 @@
         <title><?php echo $aplicacion?></title>
         <link rel="StyleSheet" href="estilos/estiloEncabezado.css" type="text/css">
         <link rel="StyleSheet" href="estilos/estiloBody.css" type="text/css">
-        <link rel="stylesheet" href="estilios/estilosPie.css">
+        <link rel="stylesheet" href="estilos/estilosPie.css" type="text/css"
     </head>
 
-    <body style="margin: 0;">
+    <body style="margin: 0; display: block;">
         <?php include('C:/xampp/htdocs/BPSUADY/BPSUADY/plantillas/encabezado.php');?>
         <div class="Contenido">
             <div class="estudiantes">
@@ -18,15 +18,10 @@
             </div>
             <div class="empresas">
                 <h2>¿Empresa?</h2>
-                <p> Ingresa como empresa y comienza a publicar tus ofertas </p>
+                <p> Ingresa como empresa y comienza a publicar tus ofertas. </p>
             </div>
         </div>
-        <div></div>
-
-
-
-
-
+        
 
         <?php include('C:/xampp/htdocs/BPSUADY/BPSUADY/plantillas/piePagina.php');?>
     </body>

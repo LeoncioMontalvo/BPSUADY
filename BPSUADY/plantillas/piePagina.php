@@ -1,19 +1,22 @@
-
-    <footer>
+<footer>
     <div id="footer">
-<!--       <img src="imagenes/pagina/Logo.png" alt="" />
- -->      <<!-- nav>
-          <ul>
-              <li><a href="<?php $url_base?>estudiante/ingresar"><div class="inicioHead">Iniciar Sesion Como Estudiante</div></a></li>
-              <li><a href="<?php $url_base?>empresa/ingresar"><div class="inicioHead">Iniciar Sesion Como Empresa</div></a></li>
-          </ul>
-      </nav> -->
-        <div class="Contacto">
-        
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <ul>
+                <li id="lista">Facultad de Matematicas UADY</li>
+                <li id="lista">+52 12345678</li>
+                <li id="lista">bpsuadycontacto@gmail.com</li>
+            </ul>
         </div>
-        <div class="info">
-
+        <div class="informacion">
+            <h2>BPSUADY</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae facilis necessitatibus consequat</p>
+            
+            <div id="iconos">
+                <a id="icono" href="#"><span>Facebook</span></a>
+                <a id="icono" href="#"><span>Twitter</span></a>
+                <a id="icono" href="#"><span>Github</span></a>
+            </div>
         </div>
     </div>
-    
-    </footer>
+</footer>
