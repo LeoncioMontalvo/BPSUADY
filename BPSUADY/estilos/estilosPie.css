@@ -115,14 +115,8 @@
     content: url('../imagenes/pagina/facebook.png');
 }
 .icono:nth-of-type(2):before {
-<<<<<<< HEAD
-    content: url('../imagenes/pagina/gorjeo.png');
-=======
 
     content: url('../imagenes/pagina/gorjeo.png');
-
-
->>>>>>> ccd055e40250d1120ec2bdd3ad18e3f9f92c2c03
 }
 .icono:nth-of-type(3):before {
     content: url('../imagenes/pagina/github.png');

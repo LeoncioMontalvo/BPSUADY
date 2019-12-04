@@ -1,8 +1,11 @@
 <?php
 
     function accion_registrar(){
+        global $aplicacion, $url_base, $variables_ruta, $controlador, $accion;
         
-
+        include('Vista/estudianteRegistroVista.php');
+        
+        
 
         
     }

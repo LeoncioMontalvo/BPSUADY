@@ -68,14 +68,12 @@ button.addEventListener("click", alertHandler);
 <div class="container">
     <div class="wrapper">
       <ul class="steps">
-        <li class="is-active">Paso 1</li>
-        <li>Paso 2</li>
-        <li>Paso 3</li>
+        <li class="is-active">Bienvenido</li>
       </ul>
       <div id="alert-container"></div>
       <form class="form-wrapper" action="<?php $url_base?>estudiante/validar" method="POST">
         <fieldset class="section is-active">
-          <h3>¡Bienvenido<br>Registrate!</h3>
+          <h3>Inicia Sesión</h3>
           
           <input type="text" name="matricula" id="nombre" placeholder="Matricula">
           <input type="text" name="contrasena" id="contrasena" placeholder="Contraseña">
