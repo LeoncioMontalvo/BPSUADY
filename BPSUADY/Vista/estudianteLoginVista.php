@@ -13,13 +13,13 @@
 <div class="container">
     <div class="wrapper">
       <ul class="steps">
-        <li class="is-active">Step 1</li>
-        <li>Step 2</li>
-        <li>Step 3</li>
+        <li class="is-active">Paso 1</li>
+        <li>Paso 2</li>
+        <li>Paso 3</li>
       </ul>
       <form class="form-wrapper">
         <fieldset class="section is-active">
-          <h3>Bienvenido<br>Registrate!</h3>
+          <h3>¡Bienvenido<br>Registrate!</h3>
           
           <input type="text" name="nombre" id="nombre" placeholder="Nombre">
           <input type="text" name="correo" id="correo" placeholder="Correo Electronico">

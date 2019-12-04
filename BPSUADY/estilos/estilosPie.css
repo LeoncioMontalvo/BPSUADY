@@ -37,9 +37,8 @@
 }
 
 #iconos {
-    text-align: center;
-    display: inline-block;
     
+    display: inline-block;
     -ms-transform:translate(-50%,-50%);
     -webkit-transform:translate(-50%,-50%);
     transform:translate(-50%,-50%);
@@ -55,9 +54,9 @@
   position: relative;
   display: inline-block;
   width:40px;
-  height:28px;
   padding-top:12px;
-  margin:0 2px;
+  padding-left: 12px;
+  
   -o-transition:all .5s;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
@@ -114,7 +113,7 @@
     content: url('../imagenes/pagina/facebook.png');
 }
 .icono:nth-of-type(2):before {
-    content: url('../imagenes/pagina/facebook.png');
+    content: url('../imagenes/pagina/gorjeo.png');
 }
 .icono:nth-of-type(3):before {
     content: url('../imagenes/pagina/github.png');

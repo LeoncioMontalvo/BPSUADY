@@ -10,12 +10,13 @@
         </div>
         <div class="informacion">
             <h2>BPSUADY</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae facilis necessitatibus consequat</p>
+            <p>BPSUADY es una pagina destinada a que el estudiante pueda ganar experiencia labroal.</p>
+            <p>Tambien un espacio para que las empresas puedan ofrecer un espacio de trabajo.</p>
             
             <div id="iconos">
-                <a class="icono" href="#"><span>Facebook</span></a>
-                <a class="icono" href="#"><span>Twitter</span></a>
-                <a class="icono" href="#"><span>Github</span></a>
+                <a class="icono" href="https://www.facebook.com/"><span>Facebook</span></a>
+                <a class="icono" href="https://twitter.com/"><span>Twitter</span></a>
+                <a class="icono" href="https://github.com/LeoncioMontalvo/BPSUADY"><span>Github</span></a>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <header>
     <div id="header">
-      <img src="imagenes/pagina/Logo.png" alt="" />
+      <a href="<?php $url_base?>"><img src="imagenes/pagina/Logo.png" alt="" /></a>
       <nav>
           <ul>
               <li><a href="<?php $url_base?>estudiante/ingresar"><div class="inicioHead">Iniciar Sesion Como Estudiante</div></a></li>
