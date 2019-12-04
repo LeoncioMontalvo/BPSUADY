@@ -18,7 +18,7 @@
             </div>
             <div class="empresas">
                 <h2>¿Empresa?</h2>
-                <p> Ingresa como empresa y comienza a publicar tus ofertas. </p>
+                <p> Ingresa como empresa y comienza a publicar tus ofertas. Contactanos si deseas registrar a tu empresa.</p>
             </div>
         </div>
         
