@@ -4,7 +4,7 @@ html, body{
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
-  background-color: #3498db;
+  background-color: rgba(117,66,201,1);
 }
 
 h1, h2, h3, h4, h5 ,h6{
@@ -103,8 +103,8 @@ fieldset{
 }
 
 .steps li.is-active{
-  border-bottom: 1px solid #3498db;
-  color: #3498db;
+  border-bottom: 1px solid rgba(117,66,201,1);
+  color: rgba(117,66,201,1);
 }
 
 /* FORM */
@@ -147,7 +147,7 @@ fieldset{
 }
 
 .form-wrapper .button, .form-wrapper .submit{
-  background-color: #3498db;
+  background-color: rgba(117,66,201,1);
   display: inline-block;
   padding: 8px 30px;
   color: #fff;
@@ -209,7 +209,7 @@ fieldset{
   height: 30px;
   line-height: 30px;
   border-radius: 100%;
-  background-color: #3498db;
+  background-color: rgba(117,66,201,1);
   color: #fff;
   display: none;
 }
@@ -224,9 +224,9 @@ fieldset{
 }
 
 .form-wrapper input[type="radio"]:checked + label{
-  border: 1px solid #3498db;
+  border: 1px solid rgba(117,66,201,1);
 }
 
 .form-wrapper input[type="radio"]:checked + label h4{
-  color: #3498db;
+  color: rgba(117,66,201,1);
 }

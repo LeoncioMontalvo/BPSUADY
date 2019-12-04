@@ -8,7 +8,7 @@
     text-align: justify;
 
     /*  */
-    
+
     background: rgba(12,84,214,1);
     background: -moz-linear-gradient(top, rgba(12,84,214,1) 0%, rgba(51,73,212,1) 31%, rgba(99,59,203,1) 88%, rgba(117,66,201,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(12,84,214,1)), color-stop(31%, rgba(51,73,212,1)), color-stop(88%, rgba(99,59,203,1)), color-stop(100%, rgba(117,66,201,1)));
@@ -48,7 +48,4 @@ nav a{
     text-decoration: none;
     color: #dadcf6;
     text-transform: uppercase;
-}
-.inicioHead{
-    
 }

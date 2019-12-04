@@ -4,10 +4,11 @@
         <title><?php echo $aplicacion?></title>
         <link rel="StyleSheet" href="estilos/estiloEncabezado.css" type="text/css">
         <link rel="StyleSheet" href="estilos/estiloBody.css" type="text/css">
+        <link rel="stylesheet" href="estilios/estilosPie.css">
     </head>
 
     <body style="margin: 0;">
-        <?php include('C:/xampp/htdocs/BPSUADY/plantillas/encabezado.php');?>
+        <?php include('C:/xampp/htdocs/BPSUADY/BPSUADY/plantillas/encabezado.php');?>
         <div class="Contenido">
             <div class="estudiantes">
                 <br>
@@ -22,6 +23,12 @@
         </div>
         <div></div>
 
+
+
+
+
+
+        <?php include('C:/xampp/htdocs/BPSUADY/BPSUADY/plantillas/piePagina.php');?>
     </body>
     
 </html>

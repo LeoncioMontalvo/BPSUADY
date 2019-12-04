@@ -4,7 +4,7 @@
 
     $directorio_base = 'c:/xampp/htdocs/BPSUADY';
 
-    $url_base = 'http://localhost/BPSUADY';
+    $url_base = 'http://localhost/BPSUADY/BPSUADY/';
 
     $controlador_predefinido = 'bpsuady';
 

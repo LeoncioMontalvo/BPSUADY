@@ -15,6 +15,8 @@
         global $aplicacion, $url_base, $variables_ruta, $controlador, $accion;
         
         include('Vista/estudianteLoginVista.php');
+
+        
     }
 
     function accion_validar(){

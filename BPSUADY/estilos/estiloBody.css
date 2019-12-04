@@ -1,9 +1,4 @@
 
-body{
-    background-color: black;
-    
-}
-
 
 .Contenido{
     background-color: white;
@@ -12,6 +7,7 @@ body{
     position: relative;
     top: 15%;
     display: block;
+    
     
     
 }

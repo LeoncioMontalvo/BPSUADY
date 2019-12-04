@@ -1,15 +1,19 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <footer>
 
+    <footer>
+    <div id="footer">
+<!--       <img src="imagenes/pagina/Logo.png" alt="" />
+ -->      <<!-- nav>
+          <ul>
+              <li><a href="<?php $url_base?>estudiante/ingresar"><div class="inicioHead">Iniciar Sesion Como Estudiante</div></a></li>
+              <li><a href="<?php $url_base?>empresa/ingresar"><div class="inicioHead">Iniciar Sesion Como Empresa</div></a></li>
+          </ul>
+      </nav> -->
+        <div class="Contacto">
+        
+        </div>
+        <div class="info">
+
+        </div>
+    </div>
     
     </footer>
-</body>
-</html>
