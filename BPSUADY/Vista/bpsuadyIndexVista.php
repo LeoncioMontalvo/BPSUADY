@@ -15,11 +15,10 @@
                 <h2>¿Estudiante?</h2>
                 <p> Si no tienes cuenta, registrate para comenzar a conocer las ofertas que las empresas tienen para ti.</p>
                 <form action="<?php $url_base?>estudiante/registrar">
-                <input id="btnRegistro" type="submit" value="Registrate">
-                <form>
-                
-                
+                <input id="btnRegistro" type="submit" name="submit" value="¡Registrate!"/>
+                </form>
             </div>
+            <br>
             <div class="empresas">
                 <h2>¿Empresa?</h2>
                 <p> Ingresa como empresa y comienza a publicar tus ofertas. Contactanos si deseas registrar a tu empresa.</p>

@@ -26,8 +26,9 @@ if(isset($_REQUEST["estado"])){
 <html lang="es">
 
 <head>
-    <title><?php echo $aplicacion ?></title>
+    <title>Inicar Sesion</title>
     <link rel="StyleSheet" href="../estilos/estiloformAnimaciones.css" type="text/css">
+    <link rel="StyleSheet" href="../estilos/estiloEncabezado.css" type="text/css">
     <script src="../scripts/animacionesForm.js"></script>
     <!-- <link rel="StyleSheet" href="../estilos/estiloEncabezado.css" type="text/css"> -->
     
@@ -65,7 +66,12 @@ button.addEventListener("click", alertHandler);
 </script>
 
 <body>
-<div class="container">
+<header>
+  <div id="header">
+  <a href="<?php $url_base?>"><img src="../imagenes/pagina/Logo.png" alt="" /></a>
+  </div>
+</header>
+<div class="container" style="top:25%">
     <div class="wrapper">
       <ul class="steps">
         <li class="is-active">Bienvenido</li>
@@ -74,40 +80,9 @@ button.addEventListener("click", alertHandler);
       <form class="form-wrapper" action="<?php $url_base?>estudiante/validar" method="POST">
         <fieldset class="section is-active">
           <h3>Inicia Sesión</h3>
-          
           <input type="text" name="matricula" id="nombre" placeholder="Matricula">
           <input type="text" name="contrasena" id="contrasena" placeholder="Contraseña">
           <input type="submit" value="Ingresar" class="button" id="button">
-          <!-- <div class="button">Siguiente</div> -->
-        <!-- </fieldset>
-        <fieldset class="section">
-          <h3>Selecciona tu tipo</h3>
-          <div class="row cf">
-            <div class="four col">
-              <input type="radio" name="r1" id="r1" checked>
-              <label for="r1">
-                <h4>Estudiante</h4>
-              </label>
-            </div>
-            <div class="four col">
-              <input type="radio" name="r1" id="r2"><label for="r2">
-                <h4>Empresa</h4>
-              </label>
-            </div>
-          </div>
-          <div class="button">Siguiente</div>
-        </fieldset>
-        <fieldset class="section">
-          <h3>Escribe tu Contraseña</h3>
-          <input type="password" name="password" id="password" placeholder="Password">
-          <input type="password" name="password2" id="password2" placeholder="Re-enter Password">
-          <input class="submit button" type="submit" value="Sign Up">
-        </fieldset>
-        <fieldset class="section">
-          <h3>Cuenta creada!</h3>
-          <p>Tu cuenta ha sida creado conm exito.</p>
-          <div class="button">Reset Form</div>
-        </fieldset> -->
       </form>
     </div>
   </div>

@@ -19,17 +19,16 @@
 .contacto{
     
   padding: 20px;
-  
   text-align: center;
   margin-left: 0%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .informacion{
     
   padding: 20px;
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   margin-left: 0%;
   font-family: Arial, Helvetica, sans-serif;
@@ -37,7 +36,7 @@
 }
 
 #iconos {
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
     -ms-transform:translate(-50%,-50%);
     -webkit-transform:translate(-50%,-50%);
