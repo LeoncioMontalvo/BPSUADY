@@ -1,5 +1,6 @@
 <?php
 
+
 if(isset($_REQUEST["estado"])){
 	switch ($_REQUEST["estado"]) {
 		case 1:
@@ -68,7 +69,7 @@ button.addEventListener("click", alertHandler);
 <body>
 <header>
   <div id="header">
-  <a href="<?php $url_base?>"><img src="../imagenes/pagina/Logo.png" alt="" /></a>
+  <a href="<?=$url_base?>"><img src="../imagenes/pagina/Logo.png" alt="" /></a>
   </div>
 </header>
 <div class="container" style="top:25%">

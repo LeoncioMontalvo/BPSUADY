@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="StyleSheet" href="../estilos/estiloformAnimaciones.css" type="text/css">
+    <link rel="StyleSheet" href="../estilos/estiloEncabezado.css" type="text/css">
     <script src="../scripts/animacionesForm.js"></script>
     <title>Registrate</title>
 </head>
 <body>
+<header>
+  <div id="header">
+  <a href="<?= $url_base?>"><img src="../imagenes/pagina/Logo.png" alt="" /></a>
+  </div>
+</header>
 <div class="container">
     <div class="wrapper">
       <ul class="steps">

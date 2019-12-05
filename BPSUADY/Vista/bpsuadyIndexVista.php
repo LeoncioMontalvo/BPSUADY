@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="estilos/estilosPie.css" type="text/css">
     </head>
 
-    <body style="margin: 0; display: block;">
+    <body style="margin: 0; display:block">
         <?php include('C:/xampp/htdocs/BPSUADY/BPSUADY/plantillas/encabezado.php');?>
         <div class="Contenido">
             <div class="estudiantes">
@@ -18,7 +18,7 @@
                 <input id="btnRegistro" type="submit" name="submit" value="¡Registrate!"/>
                 </form>
             </div>
-            <br>
+            <br><br><br><br><br><br><br><br>
             <div class="empresas">
                 <h2>¿Empresa?</h2>
                 <p> Ingresa como empresa y comienza a publicar tus ofertas. Contactanos si deseas registrar a tu empresa.</p>
